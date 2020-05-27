@@ -2,6 +2,6 @@ theme: jekyll-theme-minimal
 title: Dmitry Surchin
 description: >- # this means to ignore newlines until "baseurl:"
   There will be something about me someday...
-logo: docs/logo.png
+logo: https://github.com/life-termer/life-termer.github.io/blob/master/assets/logo.png
 plugins:
   - jekyll-feed
