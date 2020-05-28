@@ -1,7 +1,9 @@
 theme: jekyll-theme-minimal
 title: Dmitry Surchin
 description: >- # this means to ignore newlines until "baseurl:"
-  There will be something about me someday...
+ Student (Informatics Engineer) at Higher Vocational College B2</br>
+ Live in Ljubljana, Sloveni
 logo: https://life-termer.github.io/assets/logo.png
+show_downloads: true
 plugins:
   - jekyll-feed
