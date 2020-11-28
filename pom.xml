@@ -6,6 +6,7 @@
   <groupId>com.dsurchin</groupId>
   <artifactId>lastfmbot</artifactId>
   <version>1.0</version>
+  <packaging>jar</packaging>
 
 
 
@@ -44,7 +45,7 @@
             <assembleDirectory>target</assembleDirectory>
             <programs>
                 <program>
-                  <mainClass>com.dsurchin.Main</mainClass>
+                  <mainClass>Main</mainClass>
                   <name>lastfmbot</name>
                 </program>
               </programs>
