@@ -44,7 +44,7 @@
             <assembleDirectory>target</assembleDirectory>
             <programs>
                 <program>
-                  <mainClass></mainClass>
+                  <mainClass>src</mainClass>
                   <name>lastfmbot</name>
                 </program>
               </programs>
