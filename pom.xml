@@ -44,7 +44,7 @@
             <assembleDirectory>target</assembleDirectory>
             <programs>
                 <program>
-                  <mainClass>src</mainClass>
+                  <mainClass>com.dsurchin.Main</mainClass>
                   <name>lastfmbot</name>
                 </program>
               </programs>
