@@ -33,7 +33,7 @@
             <programs>
                 <program>
                   <mainClass>Main</mainClass>
-                  <name>main</name>
+                  <name>lastfmbot</name>
                 </program>
               </programs>
             </configuration>
