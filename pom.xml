@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dsurchin</groupId>
+  <artifactId>lastfmboy</artifactId>
+  <version>1.0</version>
+
+
+
+  <properties>
+    <java.version>1.8</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+  </properties>
+
+  <dependencies>
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>appassembler-maven-plugin</artifactId>
+            <version>1.1.1</version>
+            <configuration>
+            <assembleDirectory>target</assembleDirectory>
+            <programs>
+                <program>
+                  <mainClass>Main</mainClass>
+                  <name>LastFMbot</name>
+                </program>
+              </programs>
+            </configuration>
+            <executions>
+              <execution>
+                <phase>package</phase>
+                <goals>
+                  <goal>assemble</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+    </plugins>
+  </build>
+
+</project>
