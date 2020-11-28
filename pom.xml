@@ -19,6 +19,18 @@
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.telegram</groupId>
+      <artifactId>Bots</artifactId>
+      <version>5.0.1</version>
+      <type>pom</type>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.13.1</version>
+    </dependency>
 
   </dependencies>
 
