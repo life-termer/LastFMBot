@@ -1,1 +1,1 @@
-worker: sh target/LastFMbot
+worker: sh target/bin/main
